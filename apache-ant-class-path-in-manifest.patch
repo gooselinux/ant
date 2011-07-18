@@ -1,0 +1,15 @@
+--- build.xml.orig	2008-09-25 09:14:02.000000000 -0400
++++ build.xml	2008-09-25 09:14:16.000000000 -0400
+@@ -811,10 +811,10 @@
+         <include name="LICENSE.txt"/>
+         <include name="NOTICE.txt"/>
+       </metainf>
+-      <manifest>
++      <!--  <manifest>
+         <attribute name="Class-Path"
+           value="ant.jar xml-apis.jar xercesImpl.jar xalan.jar"/>
+-      </manifest>
++      </manifest> -->
+     </jar>
+ 
+     <jar destfile="${build.lib}/ant-nodeps.jar"
